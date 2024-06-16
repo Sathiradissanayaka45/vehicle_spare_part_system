@@ -45,15 +45,21 @@ Vehicle Spare Parts Shop is a web application developed using Java, JSP, Servlet
 ```sh
 git clone https://github.com/your-username/vehicle-spare-parts-shop.git
 cd vehicle-spare-parts-shop
+## ℹ️ Instructions for Customization
 
+### 🖼️ Images
+Ensure you have the images in a folder named `images` and replace the filenames with your actual image filenames if they differ.
 
-### Instructions for Customization:
-1. **Images**: Ensure you have the images in a folder named `images` and replace the filenames with your actual image filenames if they differ.
-2. **Database Configuration**: Adjust the database configuration file path (`src/main/resources/database.properties`) if your project structure is different.
-3. **Contact Information**: Replace "John Doe", `johndoe@example.com`, and the LinkedIn and GitHub URLs with your actual details.
-4. **Repository URL**: Update `https://github.com/your-username/vehicle-spare-parts-shop.git` with the actual URL of your GitHub repository.
+### 🛠️ Database Configuration
+Adjust the database configuration file path (`src/main/resources/database.properties`) if your project structure is different.
 
-## Setup the Database
+### 📞 Contact Information
+Replace "John Doe", `johndoe@example.com`, and the LinkedIn and GitHub URLs with your actual details.
+
+### 🔗 Repository URL
+Update `https://github.com/your-username/vehicle-spare-parts-shop.git` with the actual URL of your GitHub repository.
+
+## 🛠️ Setup the Database
 
 ### 1. Import the SQL Script
 To set up the database, follow these steps:
@@ -86,15 +92,13 @@ After setting up the database, update the database configuration in the project:
      db.password=yourpassword
      ```
 
-## Screenshots
+## 🖼️ Screenshots
 
-### User Dashboard
+### 🖥️ User Dashboard
 ![User Dashboard](images/user_dashboard.png)
 
-### Admin Dashboard
+### 🖥️ Admin Dashboard
 ![Admin Dashboard](images/admin_dashboard.png)
 
-### Supplier Dashboard
+### 🖥️ Supplier Dashboard
 ![Supplier Dashboard](images/supplier_dashboard.png)
-
-
