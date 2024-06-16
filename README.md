@@ -85,5 +85,15 @@ After setting up the database, update the database configuration in the project:
      db.password=yourpassword
      ```
 
-Ensure you save the changes to the configuration file.
+## Screenshots
+
+### User Dashboard
+![User Dashboard](images/user_dashboard.png)
+
+### Admin Dashboard
+![Admin Dashboard](images/admin_dashboard.png)
+
+### Supplier Dashboard
+![Supplier Dashboard](images/supplier_dashboard.png)
+
 
