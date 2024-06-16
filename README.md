@@ -52,4 +52,38 @@ cd vehicle-spare-parts-shop
 3. **Contact Information**: Replace "John Doe", `johndoe@example.com`, and the LinkedIn and GitHub URLs with your actual details.
 4. **Repository URL**: Update `https://github.com/your-username/vehicle-spare-parts-shop.git` with the actual URL of your GitHub repository.
 
-This README template now includes all the detailed instructions and placeholders you requested.
+## Setup the Database
+
+### 1. Import the SQL Script
+To set up the database, follow these steps:
+
+1. **Open MySQL Workbench**:
+   - Launch MySQL Workbench on your computer.
+
+2. **Open the SQL Script**:
+   - Go to `File` -> `Open SQL Script`.
+   - Select the provided SQL script file (`database_setup.sql`).
+
+3. **Execute the SQL Script**:
+   - Click the `Execute` button to run the script.
+   - This will create the necessary tables and populate initial data.
+
+### 2. Update Database Configuration
+After setting up the database, update the database configuration in the project:
+
+1. **Open the Project in Your Preferred IDE**:
+   - Use your preferred Integrated Development Environment (IDE) to open the project.
+
+2. **Navigate to the Database Configuration File**:
+   - Locate the database configuration file (e.g., `src/main/resources/database.properties`).
+
+3. **Update the Database URL, Username, and Password**:
+   - Edit the configuration file to match your MySQL setup. For example:
+     ```properties
+     db.url=jdbc:mysql://localhost:3306/vehicle_spare_parts
+     db.username=root
+     db.password=yourpassword
+     ```
+
+Ensure you save the changes to the configuration file.
+
